@@ -1,0 +1,87 @@
+.gear{
+    position:relative;
+    margin:100px;
+    width: 100px;
+    height: 100px;
+    background:#eee;
+    border-radius:50%;
+    box-shadow:inset 0 0 7px #aaa;
+    -moz-box-shadow:inset 0 0 7px #aaa;
+    -webkit-box-shadow:inset 0 0 7px #aaa;
+    -o-box-shadow:inset 0 0 7px #aaa;
+}
+.gear:before{
+    content:"";
+    position:absolute;
+    width:37px;
+    height:37px;
+    top:25px;left:25px;
+    border-radius:50%;
+    background-image:
+    radial-gradient(at center center, #eee 23%, #00174F 25%, #00174F 57%, transparent 59%),
+    linear-gradient(0deg, transparent 40%, #00174F 40%, #00174F 60%, transparent 60%),
+    linear-gradient(45deg, transparent 43%, #00174F 43%, #00174F 57%, transparent 57%),
+    linear-gradient(90deg, transparent 40%, #00174F 40%, #00174F 60%, transparent 60%),
+    linear-gradient(135deg, transparent 43%, #00174F 43%, #00174F 57%, transparent 57%);
+    
+    
+    animation:rotates 4s infinite linear;
+    -moz-animation:rotates 4s infinite linear;
+    -webkit-animation:rotates 4s infinite linear;
+    -o-animation:rotates 4s infinite linear;
+}
+
+.gear:after{
+    content:"";
+    position:absolute;
+    width:27px;
+    height:27px;
+    top:47px;left:51px;
+    border-radius:50%;
+    background-image:
+    radial-gradient(at center center, #eee 23%, #CC0C2F 25%, #CC0C2F 57%, transparent 59%),
+    linear-gradient(0deg, transparent 40%, #CC0C2F 40%, #CC0C2F 60%, transparent 60%),
+    linear-gradient(45deg, transparent 43%, #CC0C2F 43%, #CC0C2F 57%, transparent 57%),
+    linear-gradient(90deg, transparent 40%, #CC0C2F 40%, #CC0C2F 60%, transparent 60%),
+    linear-gradient(135deg, transparent 43%, #CC0C2F 43%, #CC0C2F 57%, transparent 57%);
+    
+    
+    animation:rotateb 4s infinite linear;
+    -moz-animation:rotateb 4s infinite linear;
+    -webkit-animation:rotateb 4s infinite linear;
+    -o-animation:rotateb 4s infinite linear;
+}
+
+@keyframes rotates{
+    form{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+@-moz-keyframes rotates{
+    form{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-webkit-keyframes rotates{
+    form{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-o-keyframes rotates{
+    form{-o-transform:rotate(0deg);}
+    to{-o-transform:rotate(360deg);}
+}
+
+@keyframes rotateb{
+    form{transform:rotate(0deg);}
+    to{transform:rotate(-360deg);}
+}
+@-moz-keyframes rotateb{
+    form{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(-360deg);}
+}
+@-webkit-keyframes rotateb{
+    form{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(-360deg);}
+}
+@-o-keyframes rotateb{
+    form{-o-transform:rotate(0deg);}
+    to{-o-transform:rotate(-360deg);}
+}

@@ -1,0 +1,126 @@
+.container{
+  perspective: 500px;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 250px;
+  height: 250px;
+  background:none;
+}
+.base{
+  position:absolute;
+  width:40%;
+  height:60%;
+  top:10%;
+  left:40%;
+  background:#00174F;
+  border-top-right-radius: 4%;
+  border-bottom-right-radius: 4%;
+}
+.pages{
+  position:absolute;
+  width:92.5%;
+  height:90%;
+  top:5%;
+  left:0%;
+  background-image: repeating-linear-gradient(180deg, #FDF7E7, #FDF7E7 7.5%, #B6BAAB 0.5%, #B6BAAB 8%);
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+.tassel{
+  position:absolute;
+  width:8%;
+  height:105%;
+  top:3%;
+  left:0%;
+  background:#CC0C2F; 
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 98%, 0 100%);
+}
+.cover{
+  position:absolute;
+  width:40%;
+  height:60%;
+  top:10%;
+  left:40%;
+  background:#00174F;
+  transform-origin:left;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-top-right-radius: 4%;
+  border-bottom-right-radius: 4%;
+}
+.cover-front{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0%;
+  left:0%;
+  background:#00174F;
+  border-top-right-radius: 4%;
+  border-bottom-right-radius: 4%;  
+}
+.cover-back{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0%;
+  left:0%;
+  background:#222222;
+  transform: rotateY( 180deg );
+  border-top-left-radius: 4%;
+  border-bottom-left-radius: 4%;
+}
+.flipside{
+  position:absolute;
+  width:92.5%;
+  height:90%;
+  top:5%;
+  right:0%;
+  background:#FDF7E7;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.dedication{
+  position:absolute;
+  top:5%;
+  font-family: 'Indie Flower', cursive;
+  font-size:20px;
+  text-align:center;
+  trasform:rotate(45deg);
+  background:none;
+}
+@keyframes thumb {
+  0% {
+    trasform:rotateY(0deg);
+  }
+  100% {
+    transform:rotateY(-180deg);
+  }
+}
+.cover:hover{
+  animation-duration: 1s;
+  animation-name: thumb;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
+}
+.container p {
+  padding-top:55%;
+  color:#FFFFFF;
+  opacity:0.6;
+  font-weight:bold;
+  font-size:14px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:-2px;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.12);
+}
+.stripe{
+  position:absolute;
+  top:0%;
+  right:5%;
+  width:5%;
+  height:100%;
+  background-color:black;
+}

@@ -1,0 +1,22 @@
+.contentspace2 {
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content2 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  max-width: 50%;
+  width: 50%;
+}
+.content2 h4 {
+  font-size: 1.4rem;
+}
+.content2 p {
+  font-size: 0.8rem;
+  padding: 10px;
+}

@@ -1,0 +1,40 @@
+.menubackground {
+  display: flex;
+  background-color: #00174F;
+  position: fixed;
+  top: 0;
+  right: 10%;
+  width: 14%;
+  height: 200vh;
+  padding: 3px;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .menubackground {
+    background: none;
+    color: #00174F;
+  }
+  .menu h2 {
+    font-size: 1.3em;
+  }
+  .menu h4 {
+    font-size: 0.8em;
+  }
+}
+.menu {
+  margin-top: 10%;
+  color: white;
+  z-index: 220;
+}
+.menu h2:hover {
+  text-decoration: underline;
+  font-size: 1.7em;
+}
+.menu h4:hover {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.introductionspace {
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .introductionspace {
+    width: 50%;
+  }
+}
+.introduction {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  max-width: 50%;
+  width: 50%;
+  padding-top: 4%;
+}
+.introduction p {
+  font-size: 0.8rem;
+}
+.image-cropper {
+  margin: 4% auto;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+img {
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}

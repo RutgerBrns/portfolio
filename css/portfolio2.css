@@ -1,0 +1,435 @@
+/*font-family: 'Montserrat', sans-serif;*/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+
+.mainheader {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-family: Dr Sugiyama, cursive;
+	font-size: 5em;
+	color: white;
+}
+
+
+.introductionspace {
+	width:100%;
+	height: 70%;
+	background-color: white;
+	
+}
+
+.introduction {	
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 10%;
+	max-width: 900px;
+	width: 70%;	
+}
+
+.environments {
+	display: flex;
+	justify-content: center;	
+	width:100%;
+	height: 70%;
+	background-color: #2f323c;
+	position: absolute;
+}
+
+.property {
+	color:white;
+	width: 20%;
+	height: 65%;	
+}
+
+.cube1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	background-color: #00174F;
+	z-index: 1;
+}
+
+.cubeA {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #00174F;
+	background-color: white;
+}
+
+.cube1:hover{
+	visibility: hidden;
+	z-index: 0;
+}
+
+.cubeA:hover {
+	z-index: 3;
+}
+
+.cube2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 4em;
+	color: #CC0C2F;
+	background-color: white;
+	z-index: 2;
+}
+
+.cubeB {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 4em;
+	color: #CC0C2F;
+	background-color: #00174F;	
+}
+
+.cube2:hover{
+	visibility: hidden;
+	z-index: 0;	
+}
+
+.cubeB:hover {
+	z-index: 3;
+}
+
+
+.cube3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 8em;
+	color: #00174F;
+	background-color: #CC0C2F;
+	z-index: 2;
+}
+
+.cubeC {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 8em;
+	color: #00174F;
+	background-color: white;	
+}
+
+.cube3:hover{
+	visibility: hidden;
+	z-index: 0;	
+}
+
+.cubeC:hover {
+	z-index: 3;
+}
+
+.cube4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 12em;
+	color: #CC0C2F;
+	background-color: #00174F;
+	z-index: 2;
+}
+
+.cubeD {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 12em;
+	color: white;
+	background-color: #CC0C2F;
+}
+
+.cube4:hover{
+	visibility: hidden;
+	z-index: 0;	
+}
+
+.cubeD:hover {
+	z-index: 3;
+}
+
+.cube5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 16em;
+	color: white;
+	background-color: #CC0C2F;
+	z-index: 2;
+}
+
+.cubeE {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 16em;
+	color: #00174F;
+	background-color: white;
+}
+
+
+.cube5:hover{
+	visibility: hidden;
+	z-index: 0;	
+}
+
+.cubeE:hover{
+	z-index: 3;
+}
+
+.cube6 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 20em;
+	color: #00174F;
+	background-color: white;
+	z-index: 2;
+}
+
+.cubeF {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	top: 0;
+	left: 20em;
+	color: white ;
+	background-color: #00174F;	
+}
+
+.cube6:hover{
+	visibility: hidden;
+	z-index: 0;	
+}
+
+.cubeF:hover{
+	z-index: 3;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+
+input[name="switch"], input[name="switch"] + label {
+  position:absolute;
+  bottom:3rem;
+  right: 1rem;
+  width:4rem;
+  height:4rem;
+}
+input[name="switch"] + label {right:3rem;}
+input[name="switch"] {
+  opacity:0;
+  z-index:9;
+  cursor:pointer;
+}
+input[value="on"] {
+  right:3rem;
+}
+input[value="off"] {
+  right:-4rem;
+}
+input[name="switch"] + label {
+  text-align:center;
+}
+[class*="entypo-"]:before {
+  line-height:4rem;
+  font-size:2.5rem;
+  color:rgba(255,255,255,0.4);
+  font-family:'entypo', sans-serif;
+}
+
+input[value="on"]:checked {
+  right:-4rem;
+}
+input[value="on"]:checked + input[value="off"] {
+  right:3rem;
+}
+
+.lamp {
+  position:relative;
+  top: 4em;
+  left: 5em;
+  width:.7rem;
+  height:10rem;
+  background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-repeat:no-repeat;
+  background-size:.15rem 8rem, .4rem .8rem, .7rem 2rem;
+  background-position:50% 0, .19rem 8rem, 0 8.8rem;
+}
+
+.lamp:before, .lamp:after {
+  content:'';
+  position:absolute;
+}
+
+.lamp:before {
+  left:-1.65rem; /* position of the lamp from the left*/
+  bottom:-4rem; /* position of the lamp from the top*/
+  width:4rem; /* width of the lamp on an off. */
+  height:4rem;
+  border-radius:50%;
+  background:rgba(255,255,255,0.16);
+  box-shadow:inset 2px -2px 10px rgba(255,255,255,0.3);
+  transition:all .15s;
+}
+
+.gonna-give-light, 
+.gonna-give-light:before{
+  position:absolute;
+}
+.gonna-give-light {
+  top:10.05rem;
+  left:.25rem;
+  width:0;
+  height:1.5rem;
+  border-right:.2rem solid rgba(255,255,255,0.05);
+}
+.gonna-give-light:before {
+  content:'';
+  top:1.5rem;
+  left:-.35rem;
+  width:.9rem;
+  height:.9rem;
+  border-radius:50%;
+  border:.2rem solid rgba(255,255,255,0.05);
+  box-shadow:0px 0px 50px rgba(255,255,255,0);
+}
+
+input[value="on"]:checked ~ .lamp:before {
+  background:rgba(255,255,255,1);
+  box-shadow:0px 2px 10px rgba(255,255,255,0.8),
+             0px 5px 50px rgba(255,255,255,0.8),
+             0px 8px 80px rgba(255,255,255,0.6),
+             0px 8px 120px rgba(255,255,255,0.6);
+}
+
+.lamp2 {
+  position:relative;
+  top: -11em;
+  left: 11em;
+  width:.7rem;
+  height:10rem;
+  background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-repeat:no-repeat;
+  background-size:.15rem 8rem, .4rem .8rem, .7rem 2rem;
+  background-position:50% 0, .19rem 8rem, 0 8.8rem;
+}
+
+.lamp2:before, .lamp:after {
+  content:'';
+  position:absolute;
+}
+
+.lamp2:before {
+  left:-1.65rem; /* position of the lamp from the left*/
+  bottom:-4rem; /* position of the lamp from the top*/
+  width:4rem; /* width of the lamp on an off. */
+  height:4rem;
+  border-radius:50%;
+  background:rgba(255,255,255,0.16);
+  box-shadow:inset 2px -2px 10px rgba(255,255,255,0.3);
+  transition:all .15s;
+}
+
+.gonna-give-light, 
+.gonna-give-light:before{
+  position:absolute;
+}
+.gonna-give-light {
+  top:10.05rem;
+  left:.25rem;
+  width:0;
+  height:1.5rem;
+  border-right:.2rem solid rgba(255,255,255,0.05);
+}
+.gonna-give-light:before {
+  content:'';
+  top:1.5rem;
+  left:-.35rem;
+  width:.9rem;
+  height:.9rem;
+  border-radius:50%;
+  border:.2rem solid rgba(255,255,255,0.05);
+  box-shadow:0px 0px 50px rgba(255,255,255,0);
+}
+
+input[value="on"]:checked ~ .lamp2:before {
+  background:rgba(255,255,255,1);
+  box-shadow:0px 2px 10px rgba(255,255,255,0.8),
+             0px 5px 50px rgba(255,255,255,0.8),
+             0px 8px 80px rgba(255,255,255,0.6),
+             0px 8px 120px rgba(255,255,255,0.6);
+}
+
+
+
+
+
+
+
+
+
+
